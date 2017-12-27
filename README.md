@@ -28,15 +28,14 @@ After plugin enabled and `DESCRIPTION_ROWS` set to 10:
 
 ## Installation
 
-The plugin should be placed in the `tpl/plugins/` directory.
-If not, download and unpack it there.
+The plugin's folder (`shaarli_descriptor`) should be placed in the `tpl/plugins/` directory. If not, download and unpack it there.
 
 The directory structure should look like:
 
 ```bash
 └── plugins
     └── shaarli_descriptor
-        ├──  shaarli_descriptor.html
+        ├── shaarli_descriptor.html
         ├── shaarli_descriptor.meta
         └── shaarli_descriptor.php
 ```
