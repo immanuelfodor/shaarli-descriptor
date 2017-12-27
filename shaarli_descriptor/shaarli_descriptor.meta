@@ -1,0 +1,3 @@
+description="Customizer plugin for the Description field on the Edit Link page."
+parameters="DESCRIPTION_ROWS"
+parameter.DESCRIPTION_ROWS="The number of rows that define the hight of the Description textarea. Default: 4"
