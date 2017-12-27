@@ -11,6 +11,21 @@ Tested on Shaarli 0.9.2 with the [Shaarli-Material](https://github.com/kalvn/Sha
     * If not specified or malformed, defaults to `4`
 * Plugin Administration page integration for easy configuration
 
+## Screenshots
+
+### Plugin Administration page
+
+After plugin enabled with default `DESCRIPTION_ROWS` settings:
+
+![Shaarli Descriptor admin settings](screenshots/shaarli-descriptor-admin.png)
+
+### Edit Link page
+
+After plugin enabled and `DESCRIPTION_ROWS` set to 10:
+
+![Shaarli Descriptor admin settings](screenshots/shaarli-descriptor-editlink.png)
+
+
 ## Installation
 
 The plugin should be placed in the `tpl/plugins/` directory.
