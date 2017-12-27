@@ -28,7 +28,7 @@ After plugin enabled and `DESCRIPTION_ROWS` set to 10:
 
 ## Installation
 
-The plugin's folder (`shaarli_descriptor`) should be placed in the `tpl/plugins/` directory.
+The plugin's folder (`shaarli_descriptor`) should be placed in the `<shaarli>/plugins/` directory.
 
 The directory structure should look like:
 
