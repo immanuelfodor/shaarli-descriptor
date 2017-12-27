@@ -28,7 +28,7 @@ After plugin enabled and `DESCRIPTION_ROWS` set to 10:
 
 ## Installation
 
-The plugin's folder (`shaarli_descriptor`) should be placed in the `tpl/plugins/` directory. If not, download and unpack it there.
+The plugin's folder (`shaarli_descriptor`) should be placed in the `tpl/plugins/` directory.
 
 The directory structure should look like:
 
@@ -42,10 +42,8 @@ The directory structure should look like:
 
 To enable the plugin, just check it in the Plugin Administration page (`?do=pluginadmin`).
 
-You can also add `shaarli_descriptor` to your list of enabled plugins in `data/config.json.php`
-(`general.enabled_plugins` list).
-
-This should look like:
+You can also add `shaarli_descriptor` to your list of enabled plugins in `data/config.json.php`.\
+The `general.enabled_plugins` list should look like then:
 
 ```
 "general": {
@@ -60,7 +58,8 @@ This should look like:
 
 Go to the Plugin Administration page, and edit the following settings (with the plugin enabled).
 
-* **DESCRIPTION_ROWS**: *Hight of the Description textarea. Default: 4*\
+* **DESCRIPTION_ROWS**:\
+*Hight of the Description textarea. Default: 4*\
 Example value: `8`
 
 > Note: this setting can also be set in `data/config.json.php`, in the plugins section.
@@ -71,4 +70,5 @@ None
 
 ## Contact
 
-Immánuel Fodor | [fodor.it](https://fodor.it)
+Immánuel Fodor\
+[fodor.it](https://fodor.it/shaarlifactorit) | [Linkedin](https://fodor.it/shaarlifactorin)
