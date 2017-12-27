@@ -46,7 +46,7 @@ This should look like:
 
 Go to the Plugin Administration page, and edit the following settings (with the plugin enabled).
 
-* **DESCRIPTION_ROWS**: *The number of rows that define the hight of the Description textarea. Default: 4*\
+* **DESCRIPTION_ROWS**: *Hight of the Description textarea. Default: 4*\
 Example value: `8`
 
 > Note: this setting can also be set in `data/config.json.php`, in the plugins section.

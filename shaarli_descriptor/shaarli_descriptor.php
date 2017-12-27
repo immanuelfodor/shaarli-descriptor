@@ -45,5 +45,5 @@ function shaarli_descriptor_dummy_translation()
 {
     // meta
     t('Customizer plugin for the Description field on the Edit Link page.');
-    t('The number of rows that define the hight of the Description textarea. Default: 4');
+    t('Hight of the Description textarea. Default: 4');
 }
