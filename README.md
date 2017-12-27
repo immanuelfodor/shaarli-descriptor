@@ -1,6 +1,6 @@
 # Shaarli Descriptor Plugin
 
-Customizer plugin for the **Description** field on the **Edit Link** page for any [Shaarli](https://github.com/shaarli/Shaarli) instance.
+[Shaarli](https://github.com/shaarli/Shaarli) plugin to customize the default height/number of rows of the **Description** field when editing a link. 
 
 Tested on Shaarli 0.9.2 with the [Shaarli-Material](https://github.com/kalvn/Shaarli-Material) theme.
 
@@ -32,7 +32,7 @@ The plugin's folder (`shaarli_descriptor`) should be placed in the `<shaarli>/pl
 
 The directory structure should look like:
 
-```bash
+```bash 
 └── plugins
     └── shaarli_descriptor
         ├── shaarli_descriptor.html
