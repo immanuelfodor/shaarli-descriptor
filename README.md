@@ -2,13 +2,11 @@
 
 [Shaarli](https://github.com/shaarli/Shaarli) plugin to customize the default height/number of rows of the **Description** field when editing a link. 
 
-Tested on Shaarli 0.9.2 with the [Shaarli-Material](https://github.com/kalvn/Shaarli-Material) theme.
+Tested on Shaarli 0.9.2 with the [Shaarli-Material](https://github.com/kalvn/Shaarli-Material) theme in desktop and Android Chrome browsers, but it should work with all [built-in themes](https://github.com/shaarli/Shaarli/tree/master/tpl/) as well.
 
 ## Features
 
-* Set up the number of rows that define the hight of the Description textarea.
-    * Should be an integer number greater than or equal to `1`
-    * If not specified or malformed, defaults to `4`
+* Set up the number of rows that define the hight of the Description textarea
 * Plugin Administration page integration for easy configuration
 
 ## Screenshots
@@ -21,10 +19,9 @@ After plugin enabled with default `DESCRIPTION_ROWS` settings:
 
 ### Edit Link page
 
-After plugin enabled and `DESCRIPTION_ROWS` set to 10:
+After plugin enabled and `DESCRIPTION_ROWS` set to `10`:
 
-![Shaarli Descriptor admin settings](screenshots/shaarli-descriptor-editlink.png)
-
+![Shaarli Descriptor edit link page](screenshots/shaarli-descriptor-editlink.png)
 
 ## Installation
 
@@ -60,13 +57,26 @@ Go to the Plugin Administration page, and edit the following settings (with the 
 
 * **DESCRIPTION_ROWS**:\
 *Hight of the Description textarea. Default: 4*\
-Example value: `8`
+Example value: `8`\
+Supported values: integer numbers greater than or equal to `1`. If not specified or malformed, defaults to `4`.
 
-> Note: this setting can also be set in `data/config.json.php`, in the plugins section.
+> Note: this setting can also be set in `data/config.json.php`, in the `plugins` section:
+
+```
+"general": {
+    "plugins": {
+        "DESCRIPTION_ROWS": "10"
+    },
+}
+```
 
 ## Known issues
 
 None
+
+## Recommendation 
+
+Shaarli Descriptor works best with my [Shaarli Markdown Toolbar](https://github.com/immanuelfodor/shaarli-markdown-toolbar) plugin, check it out, too! 😉
 
 ## Contact
 
