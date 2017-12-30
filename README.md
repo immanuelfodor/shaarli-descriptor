@@ -65,7 +65,8 @@ Supported values: integer numbers greater than or equal to `1`. If not specified
 ```
 "general": {
     "plugins": {
-        "DESCRIPTION_ROWS": "10"
+        "DESCRIPTION_ROWS": "10",
+        [...]
     },
 }
 ```
