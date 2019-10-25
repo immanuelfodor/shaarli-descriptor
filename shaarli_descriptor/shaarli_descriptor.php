@@ -6,6 +6,7 @@
  * @link https://fodor.it
  */
 
+use Shaarli\Plugin\PluginManager;
 use Shaarli\Config\ConfigManager;
 
 /**

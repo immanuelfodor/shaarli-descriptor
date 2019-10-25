@@ -2,7 +2,7 @@
 
 [Shaarli](https://github.com/shaarli/Shaarli) plugin to customize the default height/number of rows of the **Description** field when editing a link. 
 
-Tested on Shaarli 0.10.4 with the [Shaarli-Material](https://github.com/kalvn/Shaarli-Material) theme in desktop and Android Chrome browsers, but it should work with all [built-in themes](https://github.com/shaarli/Shaarli/tree/master/tpl/) as well.
+Tested on Shaarli 0.11.1 with the [Shaarli-Material](https://github.com/kalvn/Shaarli-Material) theme in desktop and Android Chrome browsers, but it should work with all [built-in themes](https://github.com/shaarli/Shaarli/tree/master/tpl/) as well.
 
 ## Features
 
