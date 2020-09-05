@@ -10,17 +10,6 @@ use Shaarli\Plugin\PluginManager;
 use Shaarli\Config\ConfigManager;
 
 /**
- * Get plugin assets base path
- * 
- * @param array $data - hook data
- * 
- * @return string - the basepath of the assets
- */
-function sd_get_basepath($data) {
-    return ($data['_BASE_PATH_'] ?? '') . '/' . PluginManager::$PLUGINS_PATH;
-}
-
-/**
  * Injecting our Javascript code to the editlink page.
  * 
  * Hook render_editlink.
@@ -43,7 +32,7 @@ function hook_shaarli_descriptor_render_editlink($data, $conf)
         $descriptionRows = 4;
     }
 
-    $html = file_get_contents(sd_get_basepath($data) .'/shaarli_descriptor/shaarli_descriptor.html');
+    $html = file_get_contents(PluginManager::$PLUGINS_PATH . '/shaarli_descriptor/shaarli_descriptor.html');
     $html = sprintf($html, $descriptionRows);
     $data['edit_link_plugin'][] = $html;
 
